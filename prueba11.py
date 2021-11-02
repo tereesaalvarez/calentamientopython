@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 iterations=10000
 variables=['work','salary','conditions','career_advancement','social_impact','job_security','life_balance','location','atmosphere','travel']
 def Monte_Carlo(grade):
-final_results=[]
+final_results=[7, 1]
 weight=[0.15,0.09,0.12,0.11,0.12,0.02,0.11,0.07,0.1,0.11]
 for n in range(iterations):
 results=[]
